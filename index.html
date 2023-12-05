@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Doynamic Dom Css</title>
+</head>
+
+<body>
+    <div class="text-here" id="text-container">This is some example text</div>
+    <label for="colorbox"> Change Text Color:</label>
+    <input type="text" id="colorbox" />
+    <button type="submit" id="colorchange">Change Color</button></br>
+    <label for="fontsize">Change Font Size:</label>
+    <input type="range" id="fontsize" default="55" min="10" max="100" /></br>
+    <button type="submit" class="stylebt" id="underline">Underline</button><button type="submit" class="stylebt" id="italic">Italic</button><button type="submit" class="stylebt" id="bold">Bold</button></br>
+    <label for="list">Change Font Family:</label>
+    <select id="list">
+    <option value=" serif ">Serif</option>
+    <option value="sans-serif" selected>Sans-Serif</option>
+    <option value=" monospace ">Monospace</option>
+    <option value=" cursive ">Cursive</option>
+    <option value=" fantasy ">Fantasy</option>
+</select></br>
+    <button type="submit" id="getstyle">Get CSS Properties</button>
+    <p id="css-props"></p>
+</body>
+
+</html>
